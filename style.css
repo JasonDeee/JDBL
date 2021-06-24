@@ -92,4 +92,6 @@ body {
   font-kerning: normal;
   letter-spacing: 3px;
   justify-content: center;
+  text-transform: uppercase;
+
 }
