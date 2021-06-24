@@ -32,7 +32,7 @@ for (i = 0; i < sensor.length; i++) {
     altBox.style.transition = `all 0.15s ease-out`;
     altBlur.style.transition = `all 0.15s ease-out`;
     altText.style.transition = `all 0.8s ease-out`;
-    altText.style.letterSpacing = `0.66vw`;
+    altText.style.letterSpacing = `0.55vw`;
   });
 
   sensor[i].addEventListener("mouseleave", (e) => {
