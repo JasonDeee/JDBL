@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  perspective: 100vw;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.section1 {
+  background-image: url(./Images/abstract-colorful-flow-shapes-background-vector.jpg);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+}
+.section2 {
+  background-color: violet;
+  width: 100%;
+  height: 100vh;
+}
+
+.box {
+  transition: all 0.5s ease-out;
+  background-color: #ffffff63;
+  display: flex;
+  width: 22vw;
+  height: 70vh;
+  border-radius: 2vw;
+  box-shadow: 2vw 3vw 5vw #0000009a;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-top: 0.17vw solid #ffffffb4;
+  border-bottom: 0.04vw solid #ffffffb4;
+  border-right: 0.04vw solid #ffffffb4;
+  border-left: 0.17vw solid #ffffffb4;
+  transform-style: preserve-3d;
+}
+.boxBlur {
+  border-radius: 2vw;
+  width: 22vw;
+  height: 70vh;
+  backdrop-filter: blur(2vw);
+  position: absolute;
+  transition: all 0.5s ease-out;
+  z-index: 0;
+}
+.margin-box {
+  background-color: transparent;
+  padding: 3vw;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.My-name {
+  font-size: 3vw;
+  font-weight: 800;
+  font-kerning: normal;
+  letter-spacing: 0;
+  justify-content: center;
+}
